@@ -1,0 +1,26 @@
+title: "ZeroG Documentation"
+tagline: Documentation for ZeroG printers
+description: ZeroG Official Documentation
+logo: "/assets/images/logo-zerog.svg"
+baseurl: ""
+markdown: kramdown
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "zerog"
+search_enabled: true
+aux_links:
+  "GitHub":
+    - "//github.com/ZeroGDesign/Mercury"
+  "Ko-Fi":
+    - "https://ko-fi.com/zerog"
+aux_links_new_tab: true
+
+ga_tracking: G-6NEWMMGBTW
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: assets/images/rtfm.pngy
